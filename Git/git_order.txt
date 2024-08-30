@@ -1,0 +1,31 @@
+1. remote repo(github)에 repo생성
+    DataScience2024
+   https://github.com/task-frsh/DataScience2024.git
+
+2. local repo를 생성(복제)
+   git clone https://github.com/task-frsh/DataScience2024.git
+
+3. local repo에 파일 추가
+   메모장에서 github_order.txt파일 하나 생성
+   git add github_order.txt
+
+3.5  계정설정
+	git config --global user.name "task-frsh"
+	git config --global user.email "sarvina.mh@gmail.com"
+
+4. commit (변경된 내용 서술)
+   git commit -m "github_order.txt파일을 생성합니다"
+
+5. push
+   git push (2단계인증->브라우저 인증)
+
+6. 파일의 내용을 수정하고 싶을 때
+
+무조건 순서 지키기!
+gi pull > 내용 수정 > push
+
+먼저, 현재까지 파일의 remote repo에서 수정내용이 있는지 확인
+수정된 내용이 있으면 업데이트
+
+
+7. github desktop으로 파일 추가
